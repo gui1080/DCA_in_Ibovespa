@@ -12,7 +12,7 @@ def map_year_2_index(year):
 
 # return initial value minus final value
 def compute_investment(money, performance):
-    return (money - (money*performance))
+    return ((money*performance) - money)
 
 # returns percentage of accumulated variation
 def compute_performance(finish_year, start_year,  worksheet):
